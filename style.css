@@ -80,8 +80,9 @@
     padding-left: 50px;
 }
 
-.nav__list-item:hover {
+.nav__list-item a:hover {
   background-color: var(--accent-hover);
+  text-decoration: underline;
 }
 
 .nav__list-item:first-child {
