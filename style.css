@@ -2,6 +2,7 @@
     --brown: #1b0d01;
     --opacity-brown:rgba(27, 13, 1, 0.2);
     --acсent: #d5c9be;
+    --accent-hover: #b8a696;
 }
 
 /* Шрифты */
@@ -77,6 +78,10 @@
 
 .nav__list-item {
     padding-left: 50px;
+}
+
+.nav__list-item:hover {
+  background-color: var(--accent-hover);
 }
 
 .nav__list-item:first-child {
