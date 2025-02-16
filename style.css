@@ -81,8 +81,9 @@
 }
 
 .nav__list-item a:hover {
-  background-color: var(--accent-hover);
+  color: var(--accent-hover);
   text-decoration: underline;
+  transition: .3s;
 }
 
 .nav__list-item:first-child {
