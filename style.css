@@ -359,6 +359,7 @@ section {
   background-color: var(--brown);
   color: white!important;
   border-radius: 5px;
+  font-size: calc(2vmin + 12px);
 }
 
 .footer__nav {
