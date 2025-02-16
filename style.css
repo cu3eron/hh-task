@@ -493,8 +493,8 @@ section {
     }
 
     .about__list-item img {
-        width: 6vw;
-        height: 6vw;
+        width: calc(6vmax + 12px);
+        height: calc(6vmax + 12px)
     }
 
     .main-btn {
@@ -572,8 +572,9 @@ section {
     }
 
     .about__list-item img {
-        width: 4vw;
-        height: 4vw;
+        width: calc(4vmax + 6px);
+        height: calc(4vmax + 6px);
+        margin-right: 10px;
     }
 
     .main-btn {
