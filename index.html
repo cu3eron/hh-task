@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <div class="wrap">
+      <header class="header" id="header">
+        <div class="header-container container">
+            <div class="logo">Itech</div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__list-item"><a href="#start-banner">Our pride</a></li>
+                    <li class="nav__list-item"><a href="#about">About Us</a></li>
+                    <li class="nav__list-item"><a href="#feedback">Contact us</a></li>
+                </ul>
+                <div class="burger" id="burger">
+                    <span class="burger__span"></span>
+                    <span class="burger__span"></span>
+                    <span class="burger__span"></span>
+                </div>
+            </nav>
+        </div>
+        <div class="burger-menu" id="burger-menu">
+            <ul class="burger-menu__list">
+                <li class="burger-menu__item"><a href="#start-banner">Our pride</a></li>
+                <li class="burger-menu__item"><a href="#about">About Us</a></li>
+                <li class="burger-menu__item"><a href="#feedback">Contact us</a></li>
+            </ul>
+        </div>
+    </header>
+    
+        <main class="main">
+            <section class="start-banner" id="start-banner">
+                <div class="container">
+                    <div class="start-banner__wrapp">
+                      <div class="start-banner__text">
+                        <div class="start-banner__preview">
+                          <h1 class="site__title">We are a team of experienced and reliable IT specialists</h1>
+                          <h3 class="site__subtitle">We have 250 highly qualified employees</h3>
+                          <ul class="start-banner__list">
+                            <li class="start-banner__list-item"><img src="img/ul-point.png" alt="○"><p>Completed over <span>600+</span> orders</p></li>
+                            <li class="start-banner__list-item"><img src="img/ul-point.png" alt="○"><p>More than <span>2000</span> positive reviews</p></li>
+                            <li class="start-banner__list-item"><img src="img/ul-point.png" alt="○"><p>The average salary of an employee <span>$900</span></p></li>
+                          </ul>
+                          <button class="main-btn">Contact us</button>
+                        </div>
+                      </div>
+                      <div class="start-banner__img-wrap">
+                        <img src="img/forbaner.png" alt="Наше здание" class="start-banner__img">
+                      </div>
+                    </div>
+                  </div>
+            </section>
+            <section class="about container" id="about">
+                <div class="about__item">
+                  <img src="img/forabout1.png" alt="Наша команда" class="about__img">
+                </div>
+                <div class="about__list-wrap about__item">
+                  <ul class="about__list">
+                    <li class="about__list-item"><img src="img/ul-point2.png" alt="○"><p>Turnkey website creation. Our Project Manager personally contacts you.</p></li>
+                    <li class="about__list-hr"></li>
+                    <li class="about__list-item"><img src="img/ul-point2.png" alt="○"><p>A comfortable and intuitive admin panel, with attached documentation.</p></li>
+                    <li class=" about__list-hr"></li>
+                    <li class="about__list-item"><img src="img/ul-point2.png" alt="○"><p>Strict adherence to deadlines. Any delays in the project are compensated.</p></li>
+                    <li class="about__list-hr"></li>
+                    <li class="about__list-item"><img src="img/ul-point2.png" alt="○"><p>Technology stack: Rest API, Django, Vue, PostgreSQL. The most modern solutions.</p></li>
+                  </ul>
+                  <button class="main-btn">Contact us</button>
+                </div>
+              </section>
+            <section class="feedback" id="feedback">
+                <div class="feedback__wrap container">
+                    <div class="feedback__form-wrap">
+                        <form method="post" class="feedback__form" id="feedback__form">
+                          <div class="fieldset__wrapp">
+                            <fieldset class="form__fieldset">
+                            <legend class="legend">Contact us and we will respond.</legend>
+                            <div class="user-data">
+                                <input type="text" placeholder="Name">
+                                <input type="email" placeholder="Email">
+                            </div>
+                            <div class="checkbox"><input type="checkbox" name="policy" id="policy-checkbox"><label for="policy-checkbox">I accept the user agreement.</label></div>
+                            <input type="button" value="Send" class="submit-btn">
+                        </fieldset>
+                      </div>      
+                        </form>
+                    </div>
+                    <div class="feedback__img-wrap">
+                        <img src="img/hh.jpg" alt="hr" class="feedback__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__nav">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-list-item">Our pride</li>
+                    <li class="footer__nav-list-item">About Us</li>
+                    <li class="footer__nav-list-item">Contact us</li>
+                </ul>
+            </div>
+            <div class="footer__items container">
+                <div class="footer__item" id="footer__logo">Itech</div>
+                <div class="footer__item socials">
+                  <img src="img/insta.svg" alt="instagram" class="socials__img">
+                  <img src="img/tt.svg" alt="tt" class="socials__img">
+                  <img src="img/in.svg" alt="in" class="socials__img">
+                  <img src="img/facebook.svg" alt="fb" class="socials__img">
+                  <img src="img/tg.svg" alt="tg" class="socials__img">
+                  <img src="img/youtube.svg" alt="yt" class="socials__img">
+                </div>
+                <div class="footer__item footer-btn__wrapp"><button class="main-btn">Заказать</button></div>
+                <div class="footer__item copyright">© 2025, Copyright</div>
+                <div class="footer__item policy">Private policy</div>
+                <div class="footer__item terms-of-use">Terms of use</div>
+              </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
